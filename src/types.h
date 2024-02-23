@@ -41,6 +41,7 @@ struct StateNode {
   StateNode *firstChild;
   StateNode *lastChild;
   U64 childCount;
+  U8 visits;
 };
 
 
